@@ -12,6 +12,7 @@ OBJ_H =\
 OBJ_T =\
 	test/iostreamTest.o\
 	test/preprocTest.o\
+	test/definedTypesTest.o\
 
 run: $(OBJ_S)
 	$(CC) -std=c++14 -pthread -g $(OBJ_S) $(LIBS) -o output.out
