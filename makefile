@@ -14,6 +14,7 @@ OBJ_T =\
 	test/preprocTest.o\
 	test/definedTypesTest.o\
 	test/classMemberPointerTest.o\
+	test/moveSemantic.o
 
 run: $(OBJ_S)
 	$(CC) -std=c++14 -pthread -g $(OBJ_S) $(LIBS) -o output.out
